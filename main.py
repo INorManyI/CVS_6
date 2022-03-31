@@ -1,16 +1,30 @@
-# This is a sample Python script.
+'''необходимо разработать функцию, принимающую список строк и строку, и
+выполняющую вставку строки в середину списка (если длина списка
+нечетная, то вставлять строку перед серединным элементом);'''
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+'''необходимо разработать функцию, принимающую список строк, число и
+строку, и выполняющую вставку строки в указанную позицию, если вставка
+на указанную позицию невозможна, то вернуть сообщение «operation is not
+possible».'''
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+#первое как знать
+def string():
+    string = list(input())
+    case = input()
+    log = int(len(string) / 2)
+    string.insert(log, case)
+    print("".join(string))
+string()
+#так уж и быть
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+'''
+def constring():
+    string = list(input())
+    stickLog = int(input())
+    case = input()
+    if(stickLog<=len(string) and stickLog >= 0):
+        string.insert(stickLog, case)
+        print("".join(string))
+    else: print("operation is not possible")
+constring()'''
