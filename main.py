@@ -7,7 +7,7 @@
 на указанную позицию невозможна, то вернуть сообщение «operation is not
 possible».'''
 
-############[f[f
+############[f[f[f]
 
 def string():
     string = list(input())
