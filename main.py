@@ -7,8 +7,8 @@
 на указанную позицию невозможна, то вернуть сообщение «operation is not
 possible».'''
 
+############[f[f
 
-#первое как знать
 def string():
     string = list(input())
     case = input()
@@ -16,9 +16,9 @@ def string():
     string.insert(log, case)
     print("".join(string))
 string()
-#так уж и быть
 
-'''
+
+
 def constring():
     string = list(input())
     stickLog = int(input())
@@ -27,4 +27,4 @@ def constring():
         string.insert(stickLog, case)
         print("".join(string))
     else: print("operation is not possible")
-constring()'''
+constring()
